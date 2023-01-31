@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "expess": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanminh-1809/nodejs_test.git"
+  },
+  "keywords": [
+    "test",
+    "nodejs"
+  ],
+  "author": "minh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanminh-1809/nodejs_test/issues"
+  },
+  "homepage": "https://github.com/vanminh-1809/nodejs_test#readme"
+}
